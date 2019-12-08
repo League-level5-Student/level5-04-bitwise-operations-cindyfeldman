@@ -1,10 +1,11 @@
 package _00_Binary_Conversion;
 
 public class BinaryToDecimal {
+
 	public static void main(String[] args) {
 		// Binary numbers in Java can be represented with the '0b' prefix.
 		// For example:
-		System.out.println(0b111);
+	
 		//This prints 7, because 111 is 7 in binary.
 		
 		//EXAMPLE: Convert 0 1 0 1 1 0 from binary to decimal
@@ -25,5 +26,21 @@ public class BinaryToDecimal {
 				    010110 in binary is equal to 22 in decimal!
 		 
 		 */
-	}
+		int[] arr = {0,1,0,1,1,0};
+		for (int i = 0;i<arr.length;i++) {
+			int t = arr[i];
+		int y  = arr[arr.length-1];
+				t= t*2^i+1;
+				
+System.out.print(t);
+		}
+		}
+
+		
+		
 }
+	
+			
+	
+	
+
