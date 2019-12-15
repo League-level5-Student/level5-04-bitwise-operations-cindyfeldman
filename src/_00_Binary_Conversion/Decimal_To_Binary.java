@@ -32,8 +32,8 @@ public class Decimal_To_Binary {
 		 *         
 		 *         43 in decimal is 101011 in binary!
 		 */
-		int[] arr = {1};
-		arr[2] = 2;
+		
+	
 		
 			
 		
