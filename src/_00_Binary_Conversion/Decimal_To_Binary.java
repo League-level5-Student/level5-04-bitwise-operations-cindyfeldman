@@ -12,6 +12,7 @@ public class Decimal_To_Binary {
 		 *         eg. 43
 		 *         	64	32	16	8	4	2	1
 		 *        
+		 
 		 *	Step 2: Remove the left most value (the one that is higher than the target). 
 		 *			eg. 43
 		 *         	32	16	8	4	2	1
@@ -31,5 +32,15 @@ public class Decimal_To_Binary {
 		 *         
 		 *         43 in decimal is 101011 in binary!
 		 */
+		int[] arr = {1};
+		arr[2] = 2;
+		
+			
+		
 	}
+	
 }
+
+	
+	
+

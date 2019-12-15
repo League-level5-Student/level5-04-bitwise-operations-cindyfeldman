@@ -1,7 +1,7 @@
 package _00_Binary_Conversion;
 
 public class BinaryToDecimal {
-
+static int s;
 	public static void main(String[] args) {
 		// Binary numbers in Java can be represented with the '0b' prefix.
 		// For example:
@@ -27,20 +27,18 @@ public class BinaryToDecimal {
 		 
 		 */
 		int[] arr = {0,1,0,1,1,0};
-		for (int i = 0;i<arr.length;i++) {
-			int t = arr[i];
-		int y  = arr[arr.length-1];
-				t= t*2^i+1;
-				
-System.out.print(t);
+		
+		int last = arr[arr.length-1];
+	int total =0;
+	int multipl = 1;
+		for (int i = arr.length-1; i >=0; i--) {
+			total  += multipl * arr[i];
+			multipl = multipl *2;
 		}
-		}
+	System.out.print(total);
+	}}
 
 		
-		
-}
-	
-			
 	
 	
 
