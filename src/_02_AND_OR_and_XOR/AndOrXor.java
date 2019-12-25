@@ -13,7 +13,8 @@ public class AndOrXor {
 		// 5     = 0 1 0 1
 		// 9     = 1 0 0 1
 		// 5 & 9 = 0 0 0 1  <--since the one column is the only column that both have a 1, the result is just 1.
-		
+		int nu = 1|3;
+		System.out.println(nu);
 		// Example:
 		// What is the value of 2 & 6?
 		// 2     = 0 1 0

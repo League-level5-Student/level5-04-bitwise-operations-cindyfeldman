@@ -32,7 +32,7 @@ public class Decimal_To_Binary {
 		 *         
 		 *         43 in decimal is 101011 in binary!
 		 */
-		int num = 43;
+		int num = 151;
 		
 		StringBuffer s = new StringBuffer();
 		while(num>0) {
@@ -41,10 +41,11 @@ public class Decimal_To_Binary {
 		
 		}
 		System.out.println(s.reverse());
-		
+	
 			
 		
 	}
+	
 	
 }
 
